@@ -1,2 +1,2 @@
 # random-password-generator
-A simple command line password generator.
+A (very) simple command line password generator.
