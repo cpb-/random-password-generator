@@ -38,7 +38,7 @@ int main(int argc, char * argv[])
 	srand(ts.tv_nsec);
 
 	for (i = 0; i < length; i ++)
-		fprintf(stdout, "%c", table[rand() % strlen(table)]);
+		fprintf(stdout, "%c", char_set[rand() % strlen(char_set)]);
 
 	fprintf(stdout, "\n");
 
